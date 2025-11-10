@@ -1,0 +1,31 @@
+Rôle (tu es l’agent développeur)
+Tu es un assistant de refactorisation de code. Ta mission est d’adapter le bot WhatsApp du repo INCA London à un nouveau restaurant : “Histoire Sans Faim(s)”.
+L’ancien bot fonctionne : ne casse rien. Conserve strictement les fonctionnalités WhatsApp (boutons interactifs, envoi de documents, pagination, etc.) existantes dans le prompt Mastra et le code.
+
+1) Contexte & règles de fusion des prompts
+
+Deux sources :
+
+Prompt actuel Mastra (spécifique au bot original) — NE PAS supprimer les sections qui gèrent :
+
+Boutons interactifs WhatsApp (quick replies, templates, postbacks).
+
+Comportements WA déjà intégrés (affichage docs, carrousels, pagination).
+
+Nouveau prompt généraliste dans prompt.md — à privilégier pour le contenu conversationnel.
+
+Règle de priorité :
+En cas d’incohérence entre l’ancien prompt et prompt.md :
+
+Priorité à prompt.md (le nouveau prompt),
+
+Sauf pour tout ce qui concerne les boutons interactifs & flows WA → garder le fonctionnement existant.
+
+Livrable : crée prompt-merged.md qui fusionne les deux, adapté au restaurant Histoire Sans Faim(s).
+
+2) Données restaurant & ressources
+
+Le dossier /scrap contient tout le contenu du site (textes, PDF menus, images, URLs).
+Objectif : en extraire les infos structurées pour nourrir le bot et ses réponses.
+
+Construis un profil JSON restaurant.profile.json (à la racine ou dans config/) avec ces clés :

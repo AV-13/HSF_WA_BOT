@@ -1,0 +1,165 @@
+{
+  "name": "Histoire Sans Faim(s)",
+  "brand_tone": "chaleureux, clair, professionnel, francophone",
+  "description": "Restaurant italien et pizzeria à Lausanne proposant des pizzas napolitaines originales, des pâtes fraîches et une sélection d'antipasti revisités. Ouvert 7 jours sur 7 avec un accès direct au parc du Loup. Idéal pour petits-déjeuners, pauses gourmandes, afterworks ou apéritifs entre amis.",
+  "founders": "Christopher et Michael, deux frères passionnés de cuisine et de restauration depuis 2014",
+  "team": {
+    "managers": ["Margaux", "Andréa"],
+    "concept": "Bousculer les codes et créer un restaurant italien unique à Lausanne qui reflète nos valeurs et notre passion"
+  },
+  "address": {
+    "line1": "Parc du Loup 5a",
+    "line2": "",
+    "zipcode": "1018",
+    "city": "Lausanne",
+    "country": "Suisse",
+    "google_maps_url": "https://www.google.com/maps/place/Histoire+Sans+Faim%EF%BD%9CRestaurant+Lausanne/@46.5380246,6.6169002,17z/data=!3m1!4b1!4m6!3m5!1s0x478c314af3b926a1:0xce7a6ec7f1d430a5!8m2!3d46.538021!4d6.6217711!16s%2Fg%2F11sbvzgtp3?entry=ttu&g_ep=EgoyMDI1MDgxMi4wIKXMDSoASAFQAw%3D%3D",
+    "parking": "Parking du vélodrome",
+    "public_transport": [
+      "Bus 20 - Arrêt Beau Site",
+      "Bus 1 - Arrêt Bois-Gentil"
+    ]
+  },
+  "contacts": {
+    "phone": "+41 21 648 22 22",
+    "email": "info@histoiresansfaim.ch",
+    "website": "https://histoiresansfaim.ch",
+    "instagram": "https://www.instagram.com/histoire_sans_faim_suisse",
+    "facebook": "https://www.facebook.com/histoire.sans.faim.suisse",
+    "tiktok": ""
+  },
+  "opening_hours": {
+    "cuisine": {
+      "monday": "11h30 - 14h00 / 18h30 - 21h30",
+      "tuesday": "11h30 - 14h00 / 18h30 - 21h30",
+      "wednesday": "11h30 - 14h00 / 18h30 - 21h30",
+      "thursday": "11h30 - 14h00 / 18h30 - 21h30",
+      "friday": "11h30 - 14h00 / 18h30 - 21h30",
+      "saturday": "11h00 - 14h00 / 18h30 - 21h30",
+      "sunday": "11h00 - 14h00 / 18h30 - 21h30"
+    },
+    "bar": {
+      "monday": "08h30 - 22h30",
+      "tuesday": "08h30 - 22h30",
+      "wednesday": "08h30 - 22h30",
+      "thursday": "08h30 - 22h30",
+      "friday": "08h30 - 22h30",
+      "saturday": "09h30 - 22h30",
+      "sunday": "09h30 - 22h30"
+    },
+    "note": "Ouvert 7 jours sur 7"
+  },
+  "menus": [
+    {
+      "name": "Menu du moment",
+      "type": "à la carte",
+      "url": "https://assets.zyrosite.com/dJobk9RMr4HKGbWG/menu_restaurant_histoire_sans-faim-Awv8KL26x5uLl62W.webp",
+      "description": "Pizzas napolitaines originales, pâtes fraîches et antipasti revisités"
+    },
+    {
+      "name": "Menu Brunch",
+      "type": "brunch",
+      "url": "https://assets.zyrosite.com/dJobk9RMr4HKGbWG/menu_brunch_restaurant_histoire_sans_faim_lausanne-mP431vB51RUxz21q.webp",
+      "description": "Menu brunch disponible chaque samedi midi et dimanche midi",
+      "availability": "Samedi et dimanche midi"
+    }
+  ],
+  "booking": {
+    "enabled": true,
+    "provider": "fulleapps",
+    "url": "https://webshop.fulleapps.io/tr/histoire-sans-faim/mzewnzi3xzy2ngm"
+  },
+  "booking_policies": {
+    "weekend_service": "Les vendredis, samedis et dimanches nous effectuons deux services par table. La durée d'occupation des tables est limitée à 01h30 pour le premier service.",
+    "delay_policy": "Sans nouvelles de votre part, nous conservons votre table 15 minutes. Merci de nous prévenir.",
+    "guest_count": "Merci d'inclure tous les participants dans votre réservation, y compris les enfants (même en poussette), pour garantir votre confort à table.",
+    "modification": "Un changement ? Merci de nous informer avant votre arrivée.",
+    "reservation_purpose": "Nos réservations sont exclusivement dédiées aux clients qui souhaitent manger au restaurant. Notre bar est accessible sans réservation, venez quand vous voulez !"
+  },
+  "delivery": [],
+  "takeaway": {
+    "enabled": false,
+    "url": ""
+  },
+  "allergens": {
+    "policy": "Politique non spécifiée dans les documents disponibles",
+    "common_allergens": []
+  },
+  "diet": {
+    "vegetarian": true,
+    "vegan": false,
+    "halal": false,
+    "gluten_free": false
+  },
+  "specialties": [
+    "Pizzas napolitaines originales",
+    "Pâtes fraîches maison",
+    "Antipasti revisités",
+    "Brunch maison chaque week-end",
+    "Cocktails maison",
+    "Plat du moment"
+  ],
+  "atmosphere": {
+    "style": "Italien avec originalité, ambiance pop culture",
+    "features": [
+      "Café-bar avec accès direct au parc du Loup",
+      "Terrasse",
+      "Salle de jeux dédiée aux enfants",
+      "Terrain de jeu dans le parc",
+      "Idéal pour les familles"
+    ],
+    "occasions": [
+      "Petits-déjeuners",
+      "Pauses gourmandes",
+      "Afterworks",
+      "Apéritifs entre amis",
+      "Brunch week-end"
+    ]
+  },
+  "payment": {
+    "card": true,
+    "cash": true,
+    "amex": false,
+    "ticket_restaurant": false
+  },
+  "awards": [
+    "Classé dans le top 3 des meilleures pizzas de Lausanne par Gault & Millau"
+  ],
+  "press": [
+    {
+      "source": "Blick",
+      "url": "https://www.blick.ch/fr/lifestyle/food/adresses/une-histoire-sans-faim-les-gerants-dinglewood-ont-un-nouveau-resto-qui-va-plaire-aux-familles-id19168420.html"
+    },
+    {
+      "source": "Gault & Millau",
+      "url": "https://www.gaultmillau.ch/fr/les-news/lausanne-ils-passent-des-burgers-aux-pizzas-654839"
+    },
+    {
+      "source": "24 Heures",
+      "url": "https://www.24heures.ch/resto-a-lausanne-lhistoire-sans-faim-seclate-entre-pizzas-et-pop-culture-429310361730"
+    },
+    {
+      "source": "The Lausanne Guide",
+      "url": "https://thelausanneguide.com/article/histoire-sans-faim"
+    }
+  ],
+  "faq": [],
+  "legal": {
+    "privacy_url": "",
+    "terms_url": ""
+  },
+  "media": {
+    "logo": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,fit=crop,q=95/dJobk9RMr4HKGbWG/logo_restaurant_histoire_sans_faim-Y4LPDykxqrhn4RZq.webp",
+    "hero": "",
+    "gallery": []
+  },
+  "links": {
+    "home": "https://histoiresansfaim.ch/",
+    "menu": "https://histoiresansfaim.ch/menu",
+    "reservation": "https://histoiresansfaim.ch/reservation",
+    "delivery": "https://histoiresansfaim.ch/livraison",
+    "about": "https://histoiresansfaim.ch/qui-sommes-nous",
+    "press": "https://histoiresansfaim.ch/presse-et-reseaux",
+    "recruitment": "https://histoiresansfaim.ch/recrutement"
+  }
+}

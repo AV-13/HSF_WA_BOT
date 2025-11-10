@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run build)",
+      "Bash(npm uninstall:*)",
+      "Bash(node:*)",
+      "Bash(timeout 5 node:*)",
+      "Bash(test:*)",
+      "Bash(npx supabase:*)",
+      "Bash(del:*)",
+      "WebFetch(domain:developers.facebook.com)",
+      "Bash(npm run generate-flow-keys:*)",
+      "Bash(npm run show-public-key:*)",
+      "Bash(az webapp:*)",
+      "Bash(mkdir:*)",
+      "Bash(cat:*)",
+      "Bash(curl:*)",
+      "Bash(npm run dev)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

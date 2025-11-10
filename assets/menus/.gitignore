@@ -1,0 +1,5 @@
+# Ignore tous les PDFs
+*.pdf
+
+# Mais garde le README
+!README.md
